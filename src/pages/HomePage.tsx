@@ -15,14 +15,14 @@ function HomePage() {
       }}
     >
       <Show above="lg">
-        <GridItem area="aside" paddingX={5}>
+        <GridItem area="aside" paddingX="10px">
           <GenreList />
         </GridItem>
       </Show>
       <GridItem area="main">
         <Box paddingLeft={2.5}>
           <GameHeading />
-          <HStack spacing={5} marginBottom={5}>
+          <HStack spacing={5} marginBottom={5} marginRight={2}>
             <PlatformSelector />
             <SortSelector />
           </HStack>
